@@ -1,0 +1,76 @@
+
+
+
+
+#creating linked list and inserting data
+
+class node:
+	def __init__(self,data):
+		self.data=None
+		self.next=NULL
+
+class Linkedlist:
+	def __init__(self):
+		self.head = None
+
+list1 = Linkedlist()
+list1.head = node("Mon")
+e2 =node("Tue")
+e3 = node("fri")
+e4 = node("sat")
+list1.head.next= e2
+e2.next = e3
+
+
+
+
+
+
+
+#Create weekday linkedlist and print that one by one
+
+from asyncio.windows_events import NULL
+
+
+class node:
+	def __init__(self,data):
+		self.data = data
+		self.next = None
+
+class Linkedlist:
+    def __init__(self):
+        self.head = None
+    def printdata(self):
+        temp = self.head
+        while (temp):
+            print(temp.data)
+            temp = temp.next
+
+
+
+list1 = Linkedlist()
+list1.head = node("MONDAY")
+t = node("Tuesaday")
+t1 =node("thursday")
+w  = node("wenesday")
+f = node("firday")
+s = node("saturday")
+s1 = node("sunday")
+list1.head.next = t
+t.next = t1
+t1.next = w
+w.next =f
+f.next =s
+s.next =s1
+
+list1.printdata()
+
+
+
+
+
+
+
+
+
+
